@@ -1,9 +1,8 @@
 var React = require('react');
 var Actions = require('../actions');
-var Store = require('../stores/RequirementStore');
 
 
-var AddRequirement = React.createClass({
+var RequirementAdd = React.createClass({
   render: function () {
     return (
       <div>
@@ -18,11 +17,12 @@ var AddRequirement = React.createClass({
   },
 
   handleSave: function () {
-    Actions.REQUIREMENT_SAVE({
+    var title = this.refs.title.getDOMNode().value;
+    Actions.REQUIREMENT_ADD({
       title: this.refs.title.getDOMNode().value
     });
   }
 });
 
 
-module.exports = AddRequirement;
+module.exports = RequirementAdd;

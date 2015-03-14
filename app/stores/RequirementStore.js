@@ -24,6 +24,7 @@ var RequirementStore = Reflux.createStore({
 
   onSave: function (requirement) {
     firebase.push(requirement);
+    console.log(requirement);
     this.setState({
       requirements: this.state.requirements.concat(requirement)
     });
@@ -32,14 +33,11 @@ var RequirementStore = Reflux.createStore({
   onSync: function (snapshot) {
     var requirements = snapshot.val();
     if (!requirements) { return; }
+    console.log(requirements);
     this.setState({
       requirements: requirements
     });
   }
-});
-
-RequirementStore.listen(function () {
-  console.log(this.state);
 });
 
 

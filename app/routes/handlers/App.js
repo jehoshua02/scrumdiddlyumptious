@@ -1,6 +1,6 @@
 var React = require('react');
 var RouteHandler = require('react-router').RouteHandler;
-var AddRequirement = require('../../components/AddRequirement');
+var RequirementAdd = require('../../components/RequirementAdd');
 
 
 var App = React.createClass({
@@ -8,7 +8,7 @@ var App = React.createClass({
     return (
       <div>
         <h1>App</h1>
-        <AddRequirement />
+        <RequirementAdd />
         <RouteHandler />
       </div>
     );
