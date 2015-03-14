@@ -7,6 +7,7 @@
 + task estimations
 + multi user
 + multi project
++ react-scaffold traces, maintain README.md attribute react-scaffold
 
 
 # TDD Pain Points
