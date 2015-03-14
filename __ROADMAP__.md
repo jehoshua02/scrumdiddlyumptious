@@ -18,14 +18,16 @@ Estimation and Reports
 Other
 -----
 + definition of done
-+ release planning
++ releases - private and public
 + vision statement
 
 Production Prep
 ---------------
-+ authentication
-+ multiple users
++ mulit user
 + multi team
++ multi organization
++ roles and permissions
++ authentication
 + rename project
 + website and documentation
 + domain name and hosting

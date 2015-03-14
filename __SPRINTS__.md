@@ -4,7 +4,7 @@ SPRINT 1
 Requirements Backlog
 --------------------------
 
-### Requirement Add
+### Add Requirement
 + Requirement Add Component
   + [ ] component should render title field
   + [ ] component should render description field
@@ -24,5 +24,3 @@ Requirements Backlog
 ### List Requirements
 ### Delete Requirements
 ### Reorder Requirements
-### Design
-### Test
