@@ -1,8 +1,6 @@
-# React Scaffold
+# React Scrum
 
-Couldn't find a Yeoman generator with webpack, react, reflux, jest and react-router.
-
-There's lots of [others](https://github.com/search?utf8=%E2%9C%93&q=webpack+react+reflux+&type=Repositories&ref=searchresults) out there.
+ReactWeek hackathon project.
 
 
 ## Setup

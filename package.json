@@ -1,8 +1,8 @@
 {
-  "name": "scrumdiddlyumptious",
+  "name": "react-scrum",
   "version": "1.0.0",
   "private": true,
-  "description": "Couldn't find a Yeoman generator with webpack, react, reflux and react-router.",
+  "description": "ReactWeek hackathon project.",
   "scripts": {
     "test": "jest --coverage",
     "serve": "open 'http://localhost:8080/webpack-dev-server/#/'; webpack-dev-server --content-base public/ --inline",

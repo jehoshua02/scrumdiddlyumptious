@@ -19,11 +19,15 @@ Other
 -----
 + definition of done
 
-Expand
-------
+Production Prep
+---------------
 + authentication
 + multiple users
 + multi team
++ rename project
++ website and documentation
++ domain name and hosting
++ deployment process
 
 Tech Debt
 ---------
@@ -33,3 +37,5 @@ Tech Debt
 + Optimize
 + Server side rendering
 + Research other flux frameworks
++ continuous integration
++ code standards
