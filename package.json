@@ -1,5 +1,5 @@
 {
-  "name": "react-scaffold",
+  "name": "scrumdiddlyumptious",
   "version": "1.0.0",
   "private": true,
   "description": "Couldn't find a Yeoman generator with webpack, react, reflux and react-router.",
@@ -23,6 +23,7 @@
   "devDependencies": {
     "babel-core": "^4.7.12",
     "babel-loader": "^4.1.0",
+    "firebase": "^2.2.2",
     "jest-cli": "^0.4.0",
     "react": "^0.12.2",
     "react-router": "^0.12.4",

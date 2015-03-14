@@ -18,9 +18,6 @@ var AddRequirement = React.createClass({
   },
 
   handleSave: function () {
-    Store.listen(function (state) {
-      console.log('hello', state);
-    });
     Actions.REQUIREMENT_SAVE({
       title: this.refs.title.getDOMNode().value
     });
