@@ -18,6 +18,8 @@ Estimation and Reports
 Other
 -----
 + definition of done
++ release planning
++ vision statement
 
 Production Prep
 ---------------
@@ -39,3 +41,4 @@ Tech Debt
 + Research other flux frameworks
 + continuous integration
 + code standards
++ CONTRIBUTING.md
