@@ -7,7 +7,7 @@ Requirements Backlog
 ### Add Requirement
 + Requirement Add Component
   + [x] component should render title field
-  + [ ] component should render description field
+  + [x] component should render description field
   + [ ] component should render button
   + [ ] component should call REQUIREMENT_ADD on submit
   + [ ] component should submit on enter and button click
@@ -22,5 +22,6 @@ Requirements Backlog
   + [ ] store should push to firebase
 
 ### List Requirements
-### Delete Requirements
+### Delete Requirement
+### Edit Requirement
 ### Reorder Requirements

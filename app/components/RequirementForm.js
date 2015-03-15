@@ -2,15 +2,21 @@ var React = require('react');
 var Actions = require('../actions');
 
 
-var RequirementAdd = React.createClass({
+var RequirementForm = React.createClass({
+
   render: function () {
     return (
-      <div>
+      <div className="requirement-form">
         <input
+          className="requirement-form__title"
+          ref="title"
           type="text"
           placeholder="Add Requirement"
-          ref="title"
         />
+        <textarea
+          className="requirement-form__description"
+          ref="description"
+        ></textarea>
         <button onClick={this.handleSave}>Save</button>
       </div>
     );
@@ -18,11 +24,11 @@ var RequirementAdd = React.createClass({
 
   handleSave: function () {
     var title = this.refs.title.getDOMNode().value;
-    Actions.REQUIREMENT_ADD({
+    Actions.REQUIREMENT_SAVE({
       title: this.refs.title.getDOMNode().value
     });
   }
 });
 
 
-module.exports = RequirementAdd;
+module.exports = RequirementForm;

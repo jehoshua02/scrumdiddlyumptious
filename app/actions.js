@@ -2,7 +2,7 @@ var Reflux = require('reflux');
 
 
 var Actions = Reflux.createActions([
-  'REQUIREMENT_ADD',
+  'REQUIREMENT_SAVE',
   'REQUIREMENT_SYNC'
 ]);
 
