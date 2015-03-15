@@ -26,10 +26,14 @@ var RequirementForm = React.createClass({
   },
 
   handleSave: function () {
-    var title = this.refs.title.getDOMNode().value;
-    Actions.REQUIREMENT_SAVE({
-      title: this.refs.title.getDOMNode().value
-    });
+    var requirement = {
+      title: this.refs.title.getDOMNode().value,
+      description: this.refs.description.getDOMNode().value
+    };
+
+    console.log('======== In Component: `console.log(Actions.REQUIREMENT_SAVE)` ========');
+    console.log(Actions.REQUIREMENT_SAVE);
+    Actions.REQUIREMENT_SAVE(requirement);
   }
 });
 

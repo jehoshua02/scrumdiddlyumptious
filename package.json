@@ -13,8 +13,8 @@
   "jest": {
     "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
     "unmockedModulePathPatterns": [
-      "react",
-      "react/addons"
+      "<rootDir>/node_modules/react",
+      "<rootDir>/node_modules/reflux"
     ]
   },
   "repository": {
