@@ -6,7 +6,7 @@ Requirements Backlog
 
 ### Add Requirement
 + Requirement Add Component
-  + [ ] component should render title field
+  + [x] component should render title field
   + [ ] component should render description field
   + [ ] component should render button
   + [ ] component should call REQUIREMENT_ADD on submit
