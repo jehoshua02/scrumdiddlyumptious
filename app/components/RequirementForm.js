@@ -17,7 +17,10 @@ var RequirementForm = React.createClass({
           className="requirement-form__description"
           ref="description"
         ></textarea>
-        <button onClick={this.handleSave}>Save</button>
+        <button
+          className="requirement-form__save-button"
+          onClick={this.handleSave}
+        >Save</button>
       </div>
     );
   },

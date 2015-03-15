@@ -15,4 +15,10 @@ describe('app/components/RequirementForm', function () {
     var actual = /requirement-form__description/.test(html);
     expect(actual).toBe(true);
   });
+
+  it('should render save button', function () {
+    var html = React.renderToStaticMarkup(<Component />);
+    var actual = /requirement-form__save-button/.test(html);
+    expect(actual).toBe(true);
+  });
 });

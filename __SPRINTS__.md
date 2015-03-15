@@ -8,8 +8,8 @@ Requirements Backlog
 + Requirement Add Component
   + [x] component should render title field
   + [x] component should render description field
-  + [ ] component should render button
-  + [ ] component should call REQUIREMENT_ADD on submit
+  + [x] component should render button
+  + [ ] component should call REQUIREMENT_SAVE on submit
   + [ ] component should submit on enter and button click
   + [ ] component should reset inputs on submit
   + [ ] component should not call REQUIREMENT_ADD action if value empty
