@@ -1,7 +1,7 @@
 var Reflux = require('reflux');
-var Actions = require('../actions');
-var State = require('./mixins/State');
-var firebase = require('../util/firebase').child('requirements');
+var Actions = require('app/actions');
+var State = require('app/stores/mixins/State');
+var firebase = require('app/util/firebase').child('requirements');
 
 
 var RequirementStore = Reflux.createStore({

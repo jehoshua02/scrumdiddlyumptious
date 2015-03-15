@@ -1,5 +1,5 @@
 var React = require('react');
-var Actions = require('../actions');
+var Actions = require('app/actions');
 
 
 var RequirementForm = React.createClass({
