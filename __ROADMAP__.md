@@ -18,6 +18,7 @@ Estimation and Reports
 Other
 -----
 + definition of done
++ some kind of retrospective integration
 + releases - private and public
 + vision statement
 
