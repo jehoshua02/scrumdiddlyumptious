@@ -31,8 +31,6 @@ var RequirementForm = React.createClass({
       description: this.refs.description.getDOMNode().value
     };
 
-    console.log('======== In Component: `console.log(Actions.REQUIREMENT_SAVE)` ========');
-    console.log(Actions.REQUIREMENT_SAVE);
     Actions.REQUIREMENT_SAVE(requirement);
   }
 });
